@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emergency Hotline</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="color-scheme" content="light dark" />
+    <script src="./js/script.js"></script>
+  </head>
+  <body class="min-h-screen bg-slate-100 text-slate-900">
+    <!-- NAVBAR -->
+    <nav
+      class="sticky top-0 z-30 w-full border-b border-slate-200 bg-white/90 backdrop-blur"
+    >
+      <div
+        class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between"
+      >
+        <div class="flex items-center gap-2 text-base font-semibold">
+          <img src="./assets/logo.png" class="h-6 w-6" alt="emblem" />
+          <span class="font-hind">Emergency Service</span>
+        </div>
+        <ul class="flex items-center gap-3 text-sm">
+          <li>
+            <span
+              class="inline-flex items-center gap-1 rounded-full bg-emerald-50 text-emerald-700 px-3 py-1 border border-emerald-200"
+              ><span class="h-6 w-6"
+                ><img src="./assets/heart.png" alt="" srcset="" /></span
+              ><span id="heartCount" class="font-bold text-black text-2xl"
+                >0</span
+              ></span
+            >
+          </li>
+          <li>
+            <span
+              class="inline-flex items-center gap-1 rounded-full bg-yellow-50 text-yellow-700 px-3 py-1 border border-yellow-200"
+              ><span id="coinCount" class="font-bold text-black text-2xl"
+                >100</span
+              ><span class="h-5 w-5"
+                ><img src="./assets/coin.png" alt="" srcset="" /> </span
+            ></span>
+          </li>
+          <li>
+            <span
+              class="inline-flex items-center gap-1 rounded-full bg-[#00A63E] text-white px-3 py-1 border border-emerald-200"
+              ><span id="copyCount" class="font-bold text-white text-2xl"
+                >0</span
+              ><span>Copy</span></span
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
